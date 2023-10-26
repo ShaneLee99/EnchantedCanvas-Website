@@ -1,0 +1,50 @@
+[
+    {
+        "Name": "John Shoff",
+        "Picture": "./images/staff/john.jpg",
+        "JobTitle": "HEAD OF CERBERUS",
+        "Description": "Cerberus Games Founder, creating immersive games and software with a passion for excellence.",
+        "Socials": {
+            "X": {
+                "type": "Twitter",
+                "pram": "https://twitter.com/fearthedev"
+            },
+            "Mail": {
+                "type": "Mail",
+                "pram": "null"
+            }
+        }
+    },
+    {
+        "Name": "Daniel Poulton",
+        "Picture": "./images/staff/daniel.jpeg",
+        "JobTitle": "HEAD OF CERBERUS",
+        "Description": "Co-Founded Cerberus Games, All-round Game Developer and Software Developer.",
+        "Socials": {
+            "X": {
+                "type": "Twitter",
+                "pram": "https://twitter.com/crypticzxi"
+            },
+            "Mail": {
+                "type": "Mail",
+                "pram": "contact@crypticzxi.dev"
+            }
+        }
+    },
+    {
+        "Name": "Shane-Lee",
+        "Picture": "./images/staff/shane.png",
+        "JobTitle": "HEAD OF CERBERUS",
+        "Description": "aksn",
+        "Socials": {
+            "X": {
+                "type": "Twitter",
+                "pram": "https://twitter.com/crypticzxi"
+            },
+            "Mail": {
+                "type": "Mail",
+                "pram": "contact@crypticzxi.dev"
+            }
+        }
+    }
+]
