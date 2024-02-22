@@ -7,12 +7,12 @@ const TeamCard = ({
        Socials
 }) => {
     return (
-        <div className='w-full shadow-xl bg-gray-mid rounded-2xl from-grad-pink via-grad-yellow to-grad-blue p-2 mx-auto'>
-          <div className='w-full h-full rounded-2xl shadow-sm bg-gray-light items-center p-8 flex flex-col space-y-5'>
+        <div className='w-full shadow-xl bg-gray-mid rounded-2xl from-grad-pink via-grad-purple to-grad-blue p-2 mx-auto'>
+          <div className='w-full h-full rounded-2xl shadow-sm bg-purple-light items-center p-8 flex flex-col space-y-5'>
 
-            <div className='w-32 h-32 rounded-full bg-gradient-to-r p-1 from-grad-pink via-grad-yellow to-grad-blue overflow-hidden'>
-              <div className='flex rounded-full overflow-hidden bg-gray-dark p-1'>
-                <div className='flex rounded-full overflow-hidden bg-gray-dark'>
+            <div className='w-32 h-32 rounded-full bg-gradient-to-tl p-1 from-grad-pink via-grad-purple to-grad-white overflow-hidden'>
+              <div className='flex rounded-full overflow-hidden bg-purple-dark p-1'>
+                <div className='flex rounded-full overflow-hidden bg-purple-dark'>
                   <img width="128px" height="128px" alt={`picture of ${Name}`} src={Picture}></img>
                 </div>
               </div>

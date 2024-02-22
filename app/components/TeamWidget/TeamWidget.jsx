@@ -31,7 +31,7 @@ const TeamWidget = () => {
     };
     
     return (
-        <div className="team-widget">
+        <div className="team-widget polka">
             <div className='
                 grid 
                 grid-flow-row

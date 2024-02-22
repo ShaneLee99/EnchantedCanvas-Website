@@ -4,8 +4,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Cerberus Games',
-  description: 'Cerberus Games is a dynamic game studio committed to fostering the growth of emerging game developers.',
+  title: 'EnchantedCanvas ● Indie Video Games',
+  description: 'EnchantedCanvas is a passionate new indie game studio committed to creative growth and improvement',
 }
 
 export default function RootLayout({ children }) {

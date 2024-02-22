@@ -8,12 +8,13 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'poppins': ['Poppins', 'serif']
+      'Lapis': ['Lapis']
     },
     colors: {
-      "gray-light": "#2A3540",
-      "gray-mid": "#202831",
-      "gray-dark": "#1D2630",
+      "gray-light": "#BB5299", //Thirdary Background
+      "gray-mid": "#5E2679", // Secondary Background
+      "gray-dark": "#13131d", // Main Background
+      "black": "#1f2937", // Main Background
 
       "orange-light": "#F37321",
       "orange-mid": "#E85A24",
@@ -22,8 +23,8 @@ module.exports = {
       "off-white": "#D5D6D6",
       "white": "#EFEFF0",
 
-      "grad-pink": "#EF3A98",
-      "grad-yellow": '#F0E7C4',
+      "pink": "#5e2679",
+      "grad-yellow": '#417926',
       "grad-blue": '#9CD0E0',
 
       red: colors.red,
