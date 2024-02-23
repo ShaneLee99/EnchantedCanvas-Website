@@ -68,7 +68,7 @@ export default function Home() {
 
       </div>
 
-      <div className='flex bg-[#1a1a26] shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
+      <div className='flex bg-[#1a1a26] z-10 shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
         <div className='w-full items-center flex md:flex-row flex-col'>
           <Image className='h-20 w-20 rounded-full' src={SHANE} />
           <div className='flex flex-col'>
@@ -94,7 +94,7 @@ export default function Home() {
           className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
           src={YOUTUBE_ICON}
           alt="Youtube Icon"
-          // Add your desired onClick or event handler here
+          onClick={() => window.location.href = "https://www.youtube.com/@Shane-Lee"}
         />
         <Image
           className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
@@ -106,18 +106,18 @@ export default function Home() {
           className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
           src={DISCORD_ICON}
           alt="Discord Icon"
-          // Add your desired onClick or event handler here
+          onClick={() => window.location.href = "https://discord.gg/9Rrka7GqZ9"}
         />
         <Image
           className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
           src={INSTAGRAM_ICON}
           alt="Instagram Icon"
-          // Add your desired onClick or event handler here
+          onClick={() => window.location.href = "https://www.instagram.com/shanelee.art"} 
         />
       </div>
     </div>
   </div>
-  </div>
+</div>
 
       <div className='py-[10rem] polka'>
 
@@ -134,31 +134,36 @@ export default function Home() {
 
       <footer className='bg-[#5e2679] z-10 flex items-center justify-center lg:flex-row flex-col xl:px-40 lg:px-20 md:px-12 px-8 py-3'>
   <div className='w-full flex h-full items-center justify-center order-2 md:order-3 m-2'>
-    <Image
-      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
-      src={X_ICON}
-      alt="X Icon"
-    />
-    <Image
-      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
-      src={YOUTUBE_ICON}
-      alt="Youtube Icon"
-    />
-    <Image
-      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
-      src={REDDIT_ICON}
-      alt="Reddit Icon"
-    />
-    <Image
-      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
-      src={DISCORD_ICON}
-      alt="Discord Icon"
-    />
-    <Image
-      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
-      src={INSTAGRAM_ICON}
-      alt="Instagram Icon"
-    />
+  <Image
+  className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+  src={X_ICON}
+  alt="X Icon"
+  // Add your desired onClick or event handler here
+/>
+<Image
+  className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+  src={YOUTUBE_ICON}
+  alt="Youtube Icon"
+  onClick={() => window.location.href = "https://www.youtube.com/@EnchantedCanvas"}  // YouTube Link
+/>
+<Image
+  className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+  src={REDDIT_ICON}
+  alt="Reddit Icon"
+  // Add your desired onClick or event handler here
+/>
+<Image
+  className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+  src={DISCORD_ICON}
+  alt="Discord Icon"
+  onClick={() => window.location.href = "https://discord.gg/9Rrka7GqZ9"}  // Discord Link
+/>
+<Image
+  className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+  src={INSTAGRAM_ICON}
+  alt="Instagram Icon"
+  onClick={() => window.location.href = "https://www.instagram.com/enchantedcanvasgames"}  // Instagram Link
+/>
   </div>
   <div className='w-full h-full flex flex-col order-1 md:order-2 m-4 items-center justify-center'>
     <h2 className='font-Lapis text-3xl'>EnchantedCanvas</h2>
