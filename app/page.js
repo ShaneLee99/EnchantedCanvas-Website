@@ -30,7 +30,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col transition-all bg-gray-dark">
-      <ParticleEffect /> {/* Add the particle effect here */}
+      {/* <ParticleEffect /> Add the particle effect here */}
+
+      <ParticleEffect />
 
       {/* Navbar */}
       <Navbar />
@@ -38,7 +40,7 @@ export default function Home() {
       {/* Hero */}
       <Hero />
 
-      <div className='flex bg-[#1a1a26] shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
+      <div className='flex bg-[#1a1a26] z-10 shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
         <div className='w-full items-center flex md:flex-row flex-col'>
           <div className='md:w-[80%]'>
             <div className="flex md:justify-start items-center justify-center px-4 py-2">
@@ -66,7 +68,7 @@ export default function Home() {
 
       </div>
 
-      <div className='flex bg-[#1a1a26] shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
+      <div className='flex bg-[#1a1a26] z-10 shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
         <div className='w-full items-center flex md:flex-row flex-col'>
           <Image className='h-20 w-20 rounded-full' src={SHANE} />
           <div className='flex flex-col'>
@@ -105,7 +107,7 @@ export default function Home() {
 
 
 
-      <footer className='bg-[#5e2679] flex items-center justify-center lg:flex-row flex-col xl:px-40 lg:px-20 md:px-12 px-8 py-3'>
+      <footer className='bg-[#5e2679] z-10 flex items-center justify-center lg:flex-row flex-col xl:px-40 lg:px-20 md:px-12 px-8 py-3'>
         <div className='w-full flex h-full items-center justify-center order-2 md:order-3 m-2'>
           <Image className='mx-2' src={X_ICON} alt="X Icon" />
           <Image className='mx-2' src={YOUTUBE_ICON} alt="Youtube Icon" />
