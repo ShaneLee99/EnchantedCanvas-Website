@@ -5,17 +5,36 @@ import INSTAGRAM_ICON from '@/public/images/icons/instagram-icon-unlit.svg';
 import REDDIT_ICON from '@/public/images/icons/reddit-icon.svg';
 import YOUTUBE_ICON from '@/public/images/icons/youtube-icon.svg';
 
-
 const SocialWidget = () => {
-    return (
-        <div className="md:flex hidden bg-clip-text z-30 bg-gradient-to-r from-grad-pink via-grad-yellow to-grad-blue fixed space-x-4 items-center bottom-0 left-6 -rotate-90 origin-left h-10">
-            <Image className="rotate-90" src={X_ICON} alt="X Icon" />
-            <Image className="rotate-90" src={YOUTUBE_ICON} alt="Youtube Icon" />
-            <Image className="rotate-90" src={REDDIT_ICON} alt="Reddit Icon" />
-            <Image className="rotate-90" src={DISCORD_ICON} alt="Discord Icon" />
-            <Image className="rotate-90" src={INSTAGRAM_ICON} alt="Instagram Icon" />
-        </div>
-    );
+  return (
+    <div className="md:flex hidden bg-clip-text z-30 bg-gradient-to-r from-gray-mid to-pink fixed space-x-4 items-center bottom-0 left-6 -rotate-90 origin-left h-10">
+      <Image
+        className="icon rotate-90 cursor-pointer hover:text-purple-500 hover:scale-110 hover:shadow-md"
+        src={X_ICON}
+        alt="X Icon"
+      />
+      <Image
+        className="icon rotate-90 cursor-pointer hover:text-blue-500 hover:scale-110 hover:shadow-md"
+        src={YOUTUBE_ICON}
+        alt="Youtube Icon"
+      />
+      <Image
+        className="icon rotate-90 cursor-pointer hover:text-orange-500 hover:scale-110 hover:shadow-md"
+        src={REDDIT_ICON}
+        alt="Reddit Icon"
+      />
+      <Image
+        className="icon rotate-90 cursor-pointer hover:text-blurple-500 hover:scale-110 hover:shadow-md"
+        src={DISCORD_ICON}
+        alt="Discord Icon"
+      />
+      <Image
+        className="icon rotate-90 cursor-pointer hover:text-pink-500 hover:scale-110 hover:shadow-md"
+        src={INSTAGRAM_ICON}
+        alt="Instagram Icon"
+      />
+    </div>
+  );
 };
 
 export default SocialWidget;

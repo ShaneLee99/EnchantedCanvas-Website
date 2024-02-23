@@ -30,3 +30,10 @@ p {
   background-position: 0px 0px, 16px 16px;
   background-size: 32px 32px;
 }
+
+*, *:before, *:after {
+  cursor: url("../public/images/cursor.png"), auto;
+}
+a:hover {
+  cursor: url("../public/images/cursor.png"), pointer;
+}

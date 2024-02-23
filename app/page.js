@@ -68,7 +68,7 @@ export default function Home() {
 
       </div>
 
-      <div className='flex bg-[#1a1a26] z-10 shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
+      <div className='flex bg-[#1a1a26] shadow-xl xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
         <div className='w-full items-center flex md:flex-row flex-col'>
           <Image className='h-20 w-20 rounded-full' src={SHANE} />
           <div className='flex flex-col'>
@@ -80,19 +80,44 @@ export default function Home() {
             </div>
           </div>
           <div className='flex lg:flex-row flex-col items-center justify-center lg:justify-start'>
-            <button className='flex relative items-center break-none justify-center my-4 xl:w-[8rem] w-24 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2 '>
+            <button className='flex relative items-center break-none justify-center my-4 xl:w-[8rem] w-24 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2' onClick={() => window.location.href = "https://shane-lee.art/"}>
               <div className='tracking-wide font-Lapis xl:text-xl lg:text-lg text-base'>Portfolio</div>
             </button>
-            <div className='flex lg:ml-5'>
-              <Image className='mx-2 w-5 h-5' src={X_ICON} alt="X Icon" />
-              <Image className='mx-2 w-5 h-5' src={YOUTUBE_ICON} alt="Youtube Icon" />
-              <Image className='mx-2 w-5 h-5' src={REDDIT_ICON} alt="Reddit Icon" />
-              <Image className='mx-2 w-5 h-5' src={DISCORD_ICON} alt="Discord Icon" />
-              <Image className='mx-2 w-5 h-5' src={INSTAGRAM_ICON} alt="Instagram Icon" />
-            </div>
-          </div>
-        </div>
+      <div className='flex lg:ml-5'>
+        <Image
+          className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
+          src={X_ICON}
+          alt="X Icon"
+          // Add your desired onClick or event handler here
+        />
+        <Image
+          className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
+          src={YOUTUBE_ICON}
+          alt="Youtube Icon"
+          // Add your desired onClick or event handler here
+        />
+        <Image
+          className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
+          src={REDDIT_ICON}
+          alt="Reddit Icon"
+          // Add your desired onClick or event handler here
+        />
+        <Image
+          className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
+          src={DISCORD_ICON}
+          alt="Discord Icon"
+          // Add your desired onClick or event handler here
+        />
+        <Image
+          className='mx-2 w-5 h-5 cursor-pointer hover:scale-110 hover:shadow-md'
+          src={INSTAGRAM_ICON}
+          alt="Instagram Icon"
+          // Add your desired onClick or event handler here
+        />
       </div>
+    </div>
+  </div>
+  </div>
 
       <div className='py-[10rem] polka'>
 
@@ -108,19 +133,39 @@ export default function Home() {
 
 
       <footer className='bg-[#5e2679] z-10 flex items-center justify-center lg:flex-row flex-col xl:px-40 lg:px-20 md:px-12 px-8 py-3'>
-        <div className='w-full flex h-full items-center justify-center order-2 md:order-3 m-2'>
-          <Image className='mx-2' src={X_ICON} alt="X Icon" />
-          <Image className='mx-2' src={YOUTUBE_ICON} alt="Youtube Icon" />
-          <Image className='mx-2' src={REDDIT_ICON} alt="Reddit Icon" />
-          <Image className='mx-2' src={DISCORD_ICON} alt="Discord Icon" />
-          <Image className='mx-2' src={INSTAGRAM_ICON} alt="Instagram Icon" />
-        </div>
-        <div className='w-full h-full flex flex-col order-1 md:order-2 m-4 items-center justify-center'>
-          <h2 className='font-Lapis text-3xl'>EnchantedCanvas</h2>
-          <p className='text-xs'>EnchantedCanvas © All Rights Reserved.</p>
-        </div>
-        <div className='w-full h-full order-3 md:order-1'></div>
-      </footer>
+  <div className='w-full flex h-full items-center justify-center order-2 md:order-3 m-2'>
+    <Image
+      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+      src={X_ICON}
+      alt="X Icon"
+    />
+    <Image
+      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+      src={YOUTUBE_ICON}
+      alt="Youtube Icon"
+    />
+    <Image
+      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+      src={REDDIT_ICON}
+      alt="Reddit Icon"
+    />
+    <Image
+      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+      src={DISCORD_ICON}
+      alt="Discord Icon"
+    />
+    <Image
+      className='mx-2 cursor-pointer hover:scale-110 hover:shadow-md'
+      src={INSTAGRAM_ICON}
+      alt="Instagram Icon"
+    />
+  </div>
+  <div className='w-full h-full flex flex-col order-1 md:order-2 m-4 items-center justify-center'>
+    <h2 className='font-Lapis text-3xl'>EnchantedCanvas</h2>
+    <p className='text-xs'>EnchantedCanvas © All Rights Reserved.</p>
+  </div>
+  <div className='w-full h-full order-3 md:order-1'></div>
+</footer>
 
 
     </main>
