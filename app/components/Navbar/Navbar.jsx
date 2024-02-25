@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CERBERUS_GAMES_LOGO from '@/public/images/enchantedcanvas.svg';
+import CERBERUS_GAMES_LOGO from '@/public/images/enchantedcanvas.png';
 
 
 const Navbar = () => {
@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='flex flex-col fixed w-full z-[1000]'>
       <div className="bg-gradient-to-b from-pink/100 to-transparent via-pink/30 backdrop-blur-sm ">
         <nav className='h-20 w-full flex items-center xl:px-40 lg:px-20 md:px-12 px-8'>
-          <div className='Logo-Container h-full 3xl:w-[24rem] w-[24rem] flex'>
+          <div className='Logo-Container transition-all h-auto xl:w-[20rem] w-[15rem] flex'>
             <Image src={CERBERUS_GAMES_LOGO} />
           </div>
           <div className='flex-grow'></div>
