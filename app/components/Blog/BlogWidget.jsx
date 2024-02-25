@@ -13,7 +13,7 @@ const BlogWidget = ({ post }) => {
                 <TrunicatedText text={post?.content.join(" ")} />
             </div>
             <div className="p-4 flex items-center justify-between">
-                <a href={"/blog/" + post.slug} className="cursor-pointer hover:scale-105 hover:shadow-md shadow-black text-white">Read more</a>
+                <a href={"/blog/" + post.slug} className="cursor-pointer hover:scale-105 hover:shadow-md shadow-black text-white hover:cursor-pointer">Read more</a>
                 <div className="flex items-center">
                     {/* Replace the placeholder image with your actual image */}
                     <Image className='object-cover w-10 h-10 mx-2 rounded-full' src={SHANE} />

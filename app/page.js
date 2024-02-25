@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className='lg:flex-grow'></div>
           <button className='flex relative items-center break-none justify-center my-4 xl:w-[12rem] w-30 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2 '>
-            <div className='tracking-wide font-Lapis xl:text-3xl lg:text-xl text-lg'>PLAY NOW!</div>
+            <div className='tracking-wide font-Lapis xl:text-3xl lg:text-xl text-lg hover:cursor-pointer'>PLAY NOW!</div>
           </button>
         </div>
       </div>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
           <div className='flex lg:flex-row flex-col items-center justify-center lg:justify-start'>
             <button className='flex relative items-center break-none justify-center my-4 xl:w-[8rem] w-24 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2' onClick={() => window.location.href = "https://shane-lee.art/"}>
-              <div className='tracking-wide font-Lapis xl:text-xl lg:text-lg text-base'>Portfolio</div>
+              <div className='tracking-wide font-Lapis xl:text-xl lg:text-lg text-base hover:cursor-pointer'>Portfolio</div>
             </button>
       <div className='flex lg:ml-5'>
         <Image
