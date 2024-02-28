@@ -51,7 +51,7 @@ export default function Home() {
             </div>
           </div>
           <div className='lg:flex-grow'></div>
-          <button className='flex relative items-center break-none justify-center my-4 xl:w-[12rem] w-30 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2 '>
+          <button className='flex relative items-center break-none justify-center my-4 xl:w-[12rem] w-30 rounded-full shadow-md shadow-black hover:bg-[#5e2679] bg-[#bb5299] px-4 py-2' onClick={() => window.location.href = "https://enchantedcanvas.itch.io/galactic-dash"}>
             <div className='tracking-wide font-Lapis xl:text-3xl lg:text-xl text-lg hover:cursor-pointer'>PLAY NOW!</div>
           </button>
         </div>
