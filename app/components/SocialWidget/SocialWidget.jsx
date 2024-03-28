@@ -17,6 +17,7 @@ const SocialWidget = () => {
         className="icon rotate-90 cursor-pointer hover:text-blue-500 hover:scale-110 hover:shadow-md"
         src={YOUTUBE_ICON}
         alt="Youtube Icon"
+        onClick={() => window.location.href = "https://www.youtube.com/@EnchantedCanvas"}  // YouTube Link
       />
       <Image
         className="icon rotate-90 cursor-pointer hover:text-orange-500 hover:scale-110 hover:shadow-md"
@@ -27,11 +28,13 @@ const SocialWidget = () => {
         className="icon rotate-90 cursor-pointer hover:text-blurple-500 hover:scale-110 hover:shadow-md"
         src={DISCORD_ICON}
         alt="Discord Icon"
+        onClick={() => window.location.href = "https://discord.gg/9Rrka7GqZ9"}  // Discord Link
       />
       <Image
         className="icon rotate-90 cursor-pointer hover:text-pink-500 hover:scale-110 hover:shadow-md"
         src={INSTAGRAM_ICON}
         alt="Instagram Icon"
+        onClick={() => window.location.href = "https://www.instagram.com/enchantedcanvasgames"}  // Instagram Link
       />
     </div>
   );
