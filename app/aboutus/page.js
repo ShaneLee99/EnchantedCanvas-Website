@@ -1,23 +1,33 @@
 'use client'
-
-
+import { useState } from 'react';
+import { useEffect } from 'react';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
+import FormatTextWithMarkdown from '../components/Utils/FormatTextWithMarkdown';
 
 export default function Home() {
+
+  const [aboutus, setAboutUs] = useState([]);
+  useEffect(() => {
+    const getAbout = async () => {
+      const res = await fetch('/api/aboutus', { headers: { 'Content-Type': 'application/json' } });
+      const tempdata = await res.json();
+      setAboutUs(tempdata);
+    };
+    getAbout();
+  }, []);
 
 
   return (
     <main className="flex min-h-screen flex-col transition-all bg-gray-dark">
-
-      <div className='flex w-full h-[8rem] bg-gray-light xl:px-80 lg:px-20 md:px-12 px-8 py-3'>
-        <div className='flex flex-col items-start justify-center'>
-          <h2 className='text-3xl font-Lapis tracking-wide'>SELL THE GAME</h2>
-          <p className='pt-2'>What do you do better than others.... Why should people install it.... What's the plans for the future....</p>
-        </div>
-        <div className='flex-grow'></div>
-        <div className='flex items-center justify-center'>
-          <button className='px-4 py-2 bg-gray-dark rounded shadow-md font-Lapis tracking-wide'>CALL TO ACTION</button>
+      <Navbar />
+      <div className='container flex flex-col mx-auto my-20 h-full min-h-[50rem]'>
+        <div className='md:mt-20 mt-4 p-4'>
+          <FormatTextWithMarkdown data={aboutus} />
         </div>
       </div>
+
+      <Footer />
     </main>
   )
 }

@@ -23,9 +23,10 @@ module.exports = {
       "off-white": "#D5D6D6",
       "white": "#EFEFF0",
 
+      "lightpink": "#bb5299",
       "pink": "#5e2679",
-      "grad-yellow": '#417926',
-      "grad-blue": '#9CD0E0',
+      "grad-yellow": '#417926', // Green...
+      "grad-blue": '#9CD0E0', // Blue....
 
       red: colors.red,
       blue: colors.blue,

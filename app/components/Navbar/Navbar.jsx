@@ -20,7 +20,7 @@ const Navbar = () => {
 
           {/* Desktop navigation links (always visible) */}
           <div className="hidden md:flex space-x-5 text-white font-Lapis font-[300] text-2xl">
-            <a href="#" className="mx-2 hover:cursor-pointer hover:scale-110 hover:shadow-md">Home</a>
+            <a href="/" className="mx-2 hover:cursor-pointer hover:scale-110 hover:shadow-md">Home</a>
             <a href="#" className="mx-2 hover:cursor-pointer hover:scale-110 hover:shadow-md">Games</a>
             <a href="#" className="mx-2 hover:cursor-pointer hover:scale-110 hover:shadow-md">Blog</a>
             <a href="/aboutus" className="mx-2 hover:cursor-pointer hover:scale-110 hover:shadow-md">About Us</a>

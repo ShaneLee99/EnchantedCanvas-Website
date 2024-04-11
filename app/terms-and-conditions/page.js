@@ -10,7 +10,7 @@ export default function Home() {
     const [terms, setTerms] = useState([]);
     useEffect(() => {
         const getTerms = async () => {
-            const res = await fetch('/api/privacy', { headers: { 'Content-Type': 'application/json' } });
+            const res = await fetch('/api/terms-and-conditions', { headers: { 'Content-Type': 'application/json' } });
             const tempdata = await res.json();
             setTerms(tempdata);
         };
@@ -22,7 +22,7 @@ export default function Home() {
         <Navbar />
         <div className='container flex flex-col mx-auto my-20'>
             <div className='flex flex-col w-max p-4'>
-                <h2 className='lg:text-4xl text-2xl tracking-wider text-[#fff]'>Privacy Policy</h2>
+                <h2 className='lg:text-4xl text-2xl tracking-wider text-[#fff]'>Terms and Conditions</h2>
                 <div className='border-b-[1px] w-full mt-4 text-gray-light'></div>
             </div>
 

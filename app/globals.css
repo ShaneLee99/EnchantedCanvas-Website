@@ -26,7 +26,7 @@ p {
 
 @font-face {
   font-family: "Lapis";
-  src: url("../public/fonts/lapsus-pro.bold.otf");
+  src: url("../public/fonts/lapsus-pro.bold.woff");
 }
 
 .polka {
