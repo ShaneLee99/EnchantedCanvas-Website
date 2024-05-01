@@ -15,7 +15,7 @@ const Hero = () => {
                         </svg>
                         <h2 className="pl-1 hover:cursor-pointer">Web Browser</h2>
                     </a>
-                    <a href="#" className="flex px-4 py-2 rounded-full font-Lapis bg-[#000000]/20 hover:bg-[#000000]/40 backdrop-blur-sm hover:cursor-pointer"> 
+                    <a href="https://play.google.com/store/apps/details?id=com.enchantedcanvas.galacticdash" className="flex px-4 py-2 rounded-full font-Lapis bg-[#000000]/20 hover:bg-[#000000]/40 backdrop-blur-sm hover:cursor-pointer"> 
                         <svg className="h-6 w-6 text-[#ffffff]" fill="CurrentColor" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><title /><g data-name="Google Play" id="Google_Play"><path d="M10.09,8a1.94,1.94,0,0,1,1.28.28l13,7.39L21.08,19Zm-1,1A2.31,2.31,0,0,0,9,9.67V30.33a2.31,2.31,0,0,0,.09.67l11-11Zm12,12-11,11a1.88,1.88,0,0,0,1.28-.28l13-7.39Zm8.52-2.34-3.94-2.24L22.07,20l3.59,3.59,3.94-2.24C30.9,20.61,30.9,19.39,29.6,18.65Z" /></g></svg>
                         <h2 className="pl-1 hover:cursor-pointer">Google Play</h2>
                     </a>
